@@ -35,6 +35,7 @@ public class Patient {
 
     private String address;
 
+    @NotNull
     private String emergencyContact;
 
     private Boolean isActive;

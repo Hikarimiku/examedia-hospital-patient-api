@@ -1,1 +1,0 @@
-# examedia-hospital-patient-api

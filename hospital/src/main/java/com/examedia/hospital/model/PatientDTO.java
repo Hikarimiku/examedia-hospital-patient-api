@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 public class PatientDTO {
     private Long id;
 
-    @NotNull()
+    @NotNull(message = "First Name is Required")
     private String firstName;
 
     @NotNull(message = "Last Name is Required")
@@ -27,6 +27,7 @@ public class PatientDTO {
 
     private String address;
 
+    @NotNull(message = "Emergency Contact is Required")
     private String emergencyContact;
 
     private Boolean isActive;
